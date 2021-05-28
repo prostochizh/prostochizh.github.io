@@ -17,38 +17,33 @@
                       <div class="col-md-6">
                         <div class="form-row">
                           <div class="form-group mb-4">
-                            <label for="validationCustom01">Имя</label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="Имя" value="" required>
+                            <label for="name">Имя</label>
+                            <input type="text" class="form-control" id="name" placeholder="Имя" value="" required>
                             <div class="valid-feedback">
                               Отлично!
                             </div>
                           </div>
                           <div class="form-group mb-4">
-                            <label for="validationCustom02">Фамилия</label>
-                            <input type="text" class="form-control"id="validationCustom02" placeholder="Фамилия" value="" required>
+                            <label for="lastname">Фамилия</label>
+                            <input type="text" class="form-control" id="lastname" placeholder="Фамилия" value="" required>
                             <div class="valid-feedback">
                               Приятно познакомиться!
                             </div>
                           </div>
                           <div class="form-group mb-4">
-                            <label for="validationCustomUsername">Имя пользователя</label>
-                            <div class="input-group">
-                              <div class="input-group-prepend">
-                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Имя пользователя" aria-describedby="inputGroupPrepend" required>
+                              <div class="invalid-feedback">
+                                Введите имя пользователя
                               </div>
-                              <input type="text" class="form-control" id="validationCustomUsername" placeholder="Имя пользователя" aria-describedby="inputGroupPrepend" required>
-                              <div class="invalid-feedback" style="top: 100%">
-                                Введите имя пользоваьтеля
-                              </div>
-                            </div>
                           </div>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-row">
                           <div class="form-group mb-4">
-                            <label for="validationCustom03">City</label>
-                            <select class="form-control" id="validationCustom03" required>
+                            <label for="city">City</label>
+                            <select class="form-control" id="city" required>
                               <option value="">Выберите</option>
                               <option value="nursultan">Нур-султан</option>
                               <option value="almaty">Алматы</option>
@@ -59,15 +54,15 @@
                             </div>
                           </div>
                           <div class="form-group mb-4">
-                            <label for="validationCustom05">Индекс</label>
-                            <input type="text" class="form-control" id="validationCustom05" placeholder="Индекс" required>
+                            <label for="zip">Индекс</label>
+                            <input type="text" class="form-control" id="zip" placeholder="Индекс" required>
                             <div class="invalid-feedback">
                               Введите правильный индекс
                             </div>
                           </div>
                           <div class="form-group mb-4">
-                            <label for="validationCustom06">Номер телефона</label>
-                            <input type="text" class="form-control" id="validationCustom06" placeholder="+7 (700) 000 00 00" pattern="^\+7 \(7[0-9]{2}\) [0-9]{3} [0-9]{2} [0-9]{2}$" required>
+                            <label for="phone">Номер телефона</label>
+                            <input type="text" class="form-control" id="phone" placeholder="+7 (700) 000 00 00" pattern="^\+7 \(7[0-9]{2}\) [0-9]{3} [0-9]{2} [0-9]{2}$" required>
                             <div class="invalid-feedback">
                               Введите номер в правильном формате
                             </div>
